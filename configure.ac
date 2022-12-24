@@ -64,6 +64,8 @@ AM_SILENT_RULES([yes])
 
 dnl Compiler checks (here before libtool).
 if test "${CXXFLAGS+set}" = "set"; then
+fi
+then
   CXXFLAGS_overridden=yes
 else
   CXXFLAGS_overridden=no
